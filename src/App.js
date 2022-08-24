@@ -1,15 +1,7 @@
 import "./App.css";
-import Functional from "./components/Functional";
-import Class from "./components/Class";
 
 function App() {
-  return (
-    <div className="App">
-      <Functional />
-      <hr />
-      <Class />
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
