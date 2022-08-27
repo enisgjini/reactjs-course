@@ -1,10 +1,13 @@
 import "./App.css";
-import State from "./components/State";
+import Kushtezimi from "./components/Kushtezimi";
+import Kushtezimi_2 from "./components/Kushtezimi_2";
 
-function App() {
+function App(props) {
+  const messages = ["A do te vjen", "Test123", "Test12345", "A do te vjen"];
   return (
     <div className="App">
-      <State />
+      {/* <Kushtezimi isLoggedIn={false} /> */}
+      <Kushtezimi_2 unreadMessages={messages} />
     </div>
   );
 }
