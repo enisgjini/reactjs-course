@@ -1,13 +1,10 @@
-import "./App.css";
-import Kushtezimi from "./components/Kushtezimi";
-import Kushtezimi_2 from "./components/Kushtezimi_2";
+import Lists from "./components/Lists";
 
-function App(props) {
-  const messages = ["A do te vjen", "Test123", "Test12345", "A do te vjen"];
+function App() {
+  const numbers = [1, 2, 3, 4, 5];
   return (
     <div className="App">
-      {/* <Kushtezimi isLoggedIn={false} /> */}
-      <Kushtezimi_2 unreadMessages={messages} />
+      <Lists numbers={numbers} />
     </div>
   );
 }
